@@ -4,20 +4,17 @@ import autoservice.model.Master;
 import autoservice.model.Order;
 import autoservice.model.Product;
 import autoservice.model.Work;
-import autoservice.service.*;
-import org.springframework.stereotype.Service;
-
+import autoservice.service.MoneyManager;
+import autoservice.service.WorkService;
 import java.math.BigDecimal;
 import java.util.List;
-import java.util.stream.Collectors;
+import org.springframework.stereotype.Service;
 
 @Service
-public class PriceManagerImpl implements PriceManager {
-    private final double MAX_PERCENTAGE = 100;
-    private final double MASTER_SALARY_MULTIPLIER = 0.3;
+public class MoneyManagerImpl implements MoneyManager {
     private final WorkService workService;
 
-    public PriceManagerImpl(WorkService workService) {
+    public MoneyManagerImpl(WorkService workService) {
         this.workService = workService;
     }
 
@@ -27,16 +24,22 @@ public class PriceManagerImpl implements PriceManager {
                 .stream()
                 .map(Work::getPrice)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
-        BigDecimal worksDiscount = BigDecimal.valueOf((order.getWorks().size() * 2) / MAX_PERCENTAGE);
+        double maxPercentage = 100;
+        BigDecimal worksDiscount = BigDecimal.valueOf((order
+                .getWorks().size() * 2) / maxPercentage);
         BigDecimal totalWorksPriceWithDiscount = totalPriceForWorks
                 .subtract(totalPriceForWorks.multiply(worksDiscount));
         BigDecimal totalPriceForProducts = order.getProducts()
                 .stream()
                 .map(Product::getPrice)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
-        BigDecimal productsDiscount = BigDecimal.valueOf(order.getProducts().size() / MAX_PERCENTAGE);
+        BigDecimal productsDiscount = BigDecimal.valueOf(order
+                .getProducts().size() / maxPercentage);
         BigDecimal totalProductsPriceWithDiscount = totalPriceForProducts
                 .subtract(totalPriceForProducts.multiply(productsDiscount));
+        if (order.getStatus().equals(Order.Status.REFUSE)) {
+            return BigDecimal.valueOf(500L);
+        }
         return totalWorksPriceWithDiscount.add(totalProductsPriceWithDiscount);
     }
 
@@ -46,7 +49,7 @@ public class PriceManagerImpl implements PriceManager {
         BigDecimal totalPriceForWork = works.stream()
                 .map(Work::getPrice)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
-        BigDecimal masterSalary = totalPriceForWork.multiply(BigDecimal.valueOf(MASTER_SALARY_MULTIPLIER));
-        return null;
+        double masterSalaryMultiplier = 0.3;
+        return totalPriceForWork.multiply(BigDecimal.valueOf(masterSalaryMultiplier));
     }
 }

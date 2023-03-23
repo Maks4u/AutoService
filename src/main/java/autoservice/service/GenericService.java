@@ -1,4 +1,7 @@
 package autoservice.service;
 
-public interface GenerircService {
+public interface GenericService<T> {
+    T saveOrUpdate(T entity);
+
+    T get(Long id);
 }

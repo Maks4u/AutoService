@@ -1,6 +1,6 @@
 package autoservice.service;
 
-import autoservice.model.Owner;
+import autoservice.model.CarOwner;
 
-public interface OwnerService extends GenericService<Owner> {
+public interface CarOwnerService extends GenericService<CarOwner> {
 }

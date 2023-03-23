@@ -1,12 +1,13 @@
-package autoservice.service.mapper;
+package autoservice.service.mapper.impl;
 
 import autoservice.model.Product;
 import autoservice.model.dto.request.ProductRequestDto;
 import autoservice.model.dto.response.ProductResponseDto;
+import autoservice.service.mapper.Mapper;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ProductMapper implements Mapper<ProductRequestDto, ProductResponseDto, Product>{
+public class ProductMapper implements Mapper<ProductRequestDto, ProductResponseDto, Product> {
     @Override
     public ProductResponseDto toDto(Product object) {
         ProductResponseDto productResponseDto = new ProductResponseDto();

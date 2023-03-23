@@ -4,11 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="714effb4-a1e0-4bb7-93e6-d90c2f2e8106" name="Changes" comment="" />
+    <list default="true" id="714effb4-a1e0-4bb7-93e6-d90c2f2e8106" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/controller/CarOwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/controller/CarOwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/controller/MasterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/controller/MasterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/controller/WorkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/controller/WorkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/CarOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/CarOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/Master.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/CarOwnerRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/CarOwnerRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/CarRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/CarRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/MasterRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/MasterRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/OrderOnlyStatusRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/OrderOnlyStatusRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/OrderProductsRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/OrderProductsRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/OrderRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/OrderRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/ProductRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/ProductRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/WorkOnlyStatusRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/WorkOnlyStatusRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/WorkRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/request/WorkRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/CarOwnerResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/CarOwnerResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/CarResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/CarResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/MasterResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/MasterResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/MasterSalaryResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/MasterSalaryResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/OrderResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/OrderResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/OrderTotalPriceResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/OrderTotalPriceResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/ProductResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/ProductResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/WorkResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/model/dto/response/WorkResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/repository/CarOwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/repository/CarOwnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/repository/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/repository/MasterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/repository/MasterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/repository/WorkRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/repository/WorkRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/CarOwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/CarOwnerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/MasterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/MasterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/MoneyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/MoneyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/WorkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/WorkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/CarOwnerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/CarOwnerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/MasterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/MasterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/MoneyManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/MoneyManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/WorkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/impl/WorkServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/CarMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/CarMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/CarOwnerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/CarOwnerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/MasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/MasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/WorkMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autoservice/service/mapper/impl/WorkMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -18,19 +99,59 @@
     </option>
   </component>
   <component name="ProjectId" id="2NEwwKV7aZDea48s50217rc69X4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Courses/jv-spring-stateless",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "c3be16ef046e8d2286d95b7e852f2670",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="autoservice.model.dto.response" />
+      <recent name="autoservice.model.dto.request" />
+      <recent name="autoservice.service.mapper.impl" />
+      <recent name="autoservice.service.mapper" />
+      <recent name="autoservice.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Courses\Autoservice" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Autoservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="autoservice.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,7 +160,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679242787253</updated>
+      <workItem from="1679242788331" duration="19482000" />
+      <workItem from="1679266900580" duration="24518000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

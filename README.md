@@ -25,7 +25,7 @@ AutoService follows a standard project structure for Spring-based applications u
 - `resources`: This directory contains the `application.properties` file, that has the database, ports, swagger configuration.
 
 ### Current project functionality:
-Here is the list of all endpoints with role required for access and their short description:
+Here is the list of all endpoints and their short description:
 
 #### CarController:
 - POST: /cars - create new car.
